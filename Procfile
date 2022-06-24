@@ -1,1 +1,1 @@
-Mig: python -m MightyXSpam
+Rdn: python -m RDNSPAMBOT
