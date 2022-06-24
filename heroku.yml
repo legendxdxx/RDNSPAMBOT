@@ -1,5 +1,5 @@
 build:
   docker:
-    Mig: Dockerfile
+    Rdn: Dockerfile
 run:
-  Mig: python3 -m MightyXSpam
+  Mig: python3 -m RDNSPAMBOT
