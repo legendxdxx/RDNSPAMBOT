@@ -2,7 +2,7 @@
 import os
 import sys
 import asyncio
-from MightyXSpam import Mig, OWNER_ID, HEROKU_API_KEY, HEROKU_APP_NAME
+from RDNSPAMBOT import Rdn, OWNER_ID, HEROKU_API_KEY, HEROKU_APP_NAME
 from .. import CMD_HNDLR as hl
 from telethon import events
 from time import time
@@ -13,7 +13,7 @@ Heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
  
  
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 async def logs(legend):
     if legend.sender_id == OWNER_ID:
         if (HEROKU_APP_NAME is None) or (HEROKU_API_KEY is None):
@@ -36,8 +36,8 @@ async def logs(legend):
         await asyncio.sleep(1)
         await fetch.delete()
         logfile = open("BotSpamLogs.txt", "w")
-        logfile.write("⚡ Mighty X Spam ⚡ [ BotSpam Logs ]\n\n" + logs)
+        logfile.write("⚡RDN FIGHTERS⚡ [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
-        await Mig.send_file(legend.chat_id, "BotSpamLogs.txt", caption=f"⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 𝐋𝐨𝐠𝐬 ⚡\n**Time Taken :** `{ms} Seconds`")
+        await Rdn.send_file(legend.chat_id, "BotSpamLogs.txt", caption=f"⚡ RDNSPAMBOT LOGS ⚡\n**Time Taken :** `{ms} Seconds`")
     else:
         await legend.reply("Sorry, Only Owner Can Access This Command.")
