@@ -2,7 +2,7 @@
 import os
 import sys
 import asyncio
-from RDNSPAMBOT import Rdn, OWNER_ID, HEROKU_API_KEY, HEROKU_APP_NAME
+from RDMSPAMBOT import Rdn, OWNER_ID, HEROKU_API_KEY, HEROKU_APP_NAME
 from .. import CMD_HNDLR as hl
 from telethon import events
 from time import time
