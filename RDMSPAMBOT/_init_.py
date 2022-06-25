@@ -15,7 +15,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 #version
 
-mightyversion = "v2.0.6"
+Rdnersion = "v2.0.6"
 
 #values
 API_ID = config("API_ID", default=None, cast=int)
@@ -51,22 +51,22 @@ SUDO_USERS.append(1789859817)
 
 # Tokens
 
-Mig = TelegramClient('Mig', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+Rdn = TelegramClient('Mig', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-Mig2 = TelegramClient('Mig2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
+Rdn2 = TelegramClient('Mig2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 
-Mig3 = TelegramClient('Mig3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
+Rdn3 = TelegramClient('Mig3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
 
-Mig4 = TelegramClient('Mig4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
+Rdn4 = TelegramClient('Mig4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
 
-Mig5 = TelegramClient('Mig5', API_ID, API_HASH).start(bot_token=BOT_TOKEN5)
+Rdn5 = TelegramClient('Mig5', API_ID, API_HASH).start(bot_token=BOT_TOKEN5)
 
-Mig6 = TelegramClient('Mig6', API_ID, API_HASH).start(bot_token=BOT_TOKEN6)
+Rdn6 = TelegramClient('Mig6', API_ID, API_HASH).start(bot_token=BOT_TOKEN6)
 
-Mig7 = TelegramClient('Mig7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
+Rdn7 = TelegramClient('Mig7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
 
-Mig8 = TelegramClient('Mig8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
+Rdn8 = TelegramClient('Mig8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
 
-Mig9 = TelegramClient('Mig9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
+Rdn9 = TelegramClient('Mig9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 
-Mig10 = TelegramClient('Mig10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
+Rdn10 = TelegramClient('Mig10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
