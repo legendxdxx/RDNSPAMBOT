@@ -12,9 +12,9 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/27dfd474582fb499263d8.jpg"
+RDN_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/27dfd474582fb499263d8.jpg"
 
-MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 
+RDN_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 
 ██████╗░██████╗░███╗░░██╗
 ██╔══██╗██╔══██╗████╗░██║
 ██████╔╝██║░░██║██╔██╗██║
@@ -42,13 +42,13 @@ async def alive(event):
       ms = (end-start).microseconds / 1000
       await check.delete()
       await event.client.send_file(event.chat_id,
-                                  MIG_PIC, caption=f"""{MIG_TEXT}\n\n═══════════════════\n⚡ 𝐏𝐢𝐧𝐠  : `{ms}ᵐˢ`\n⚡ 𝐎𝐰𝐧𝐞𝐫 : {mention}\n⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 : `{mightyversion}`\n⚡ 𝐏𝐲𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `3.9.6`\n⚡ 𝐓𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `{version.__version__}`\n═══════════════════\n\n""", buttons=[
+                                  RDN_PIC, caption=f"""{MIG_TEXT}\n\n═══════════════════\n⚡ 𝐏𝐢𝐧𝐠  : `{ms}ᵐˢ`\n⚡ 𝐎𝐰𝐧𝐞𝐫 : {mention}\n⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 : `{mightyversion}`\n⚡ 𝐏𝐲𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `3.9.6`\n⚡ 𝐓𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `{version.__version__}`\n═══════════════════\n\n""", buttons=[
         [
-        Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates"),
-        Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+        Button.url("✨ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ✨", "https://t.me/ROYALYSERBOT"),
+        Button.url("✨ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ✨", "https://t.me/ROYALUBOT_SUPPORT")
         ],
         [
-        Button.url("🔥 ʀᴇᴘᴏ 🔥", "https://github.com/BeingMighty/MightyBotSpamDeploy")
+        Button.url("🔥 𝗥𝗘𝗣𝗢 🔥", "https://github.com/...?")
         ]
         ]
         )
@@ -80,16 +80,16 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
-@Mig10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@Rdn10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
@@ -108,58 +108,58 @@ async def ping(e):
         
         
 
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig2.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig3.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig4.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig5.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig6.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig7.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig8.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
-@Mig10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn2.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn3.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn4.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn5.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn6.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn7.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn8.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+@Rdn10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your Mighty X Spam...**\nPlease Wait For Few Seconds."
+        text = "**Restarting Your ROYAL SPAM BOT...**\nPlease Wait For Few Seconds."
         await e.reply(text)
         try:
-            await Mig.disconnect()
+            await Rdn.disconnect()
         except Exception:
             pass
         try:
-            await Mig2.disconnect()
+            await Rdn2.disconnect()
         except Exception:
             pass
         try:
-            await Mig3.disconnect()
+            await Rdn3.disconnect()
         except Exception:
             pass
         try:
-            await Mig4.disconnect()
+            await Rdn4.disconnect()
         except Exception:
             pass
         try:
-            await Mig5.disconnect()
+            await Rdn5.disconnect()
         except Exception:
             pass
         try:
-            await Mig6.disconnect()
+            await Rdn6.disconnect()
         except Exception:
             pass
         try:
-            await Mig7.disconnect()
+            await Rdn7.disconnect()
         except Exception:
             pass
         try:
-            await Mig8.disconnect()
+            await Rdn8.disconnect()
         except Exception:
             pass
         try:
-            await Mig9.disconnect()
+            await Rdn9.disconnect()
         except Exception:
             pass
         try:
-            await Mig10.disconnect()
+            await Rdn10.disconnect()
         except Exception:
             pass
 
@@ -171,11 +171,11 @@ Heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
 sudousers = os.environ.get("SUDO_USER", None)
 
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
         ok = await event.reply(f"__Adding User As Sudo...__")
-        mighty = "SUDO_USER"
+        Rdnspam = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
@@ -193,7 +193,7 @@ async def tb(event):
         else:
             newsudo = f"{target}"
         await ok.edit(f"**Added** `{target}` **As Sudo User** ✨ \nRestarting... Please Wait Few Seconds.")
-        heroku_var[mighty] = newsudo   
+        heroku_var[Rdnspam] = newsudo   
    
      
 async def get_user(event):
