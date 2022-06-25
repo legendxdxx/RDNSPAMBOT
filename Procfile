@@ -1,1 +1,1 @@
-Rdn: python -m RDNSPAMBOT
+Rdn: python -m RDMSPAMBOT
