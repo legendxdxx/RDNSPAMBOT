@@ -14,17 +14,17 @@ RDN_Button = [
         Button.url("✨ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ✨", "https://t.me/RMWNETWORK ")
         ],
         [
-        Button.inline("⚡ ᴄᴏᴍᴍᴀɴᴅs ⚡", data="help_back")
+        Button.inline("⚡ DATA ⚡", data="help_back")
         ]
         ]
                
 RDN_Button = [
         [
-        Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/ROYALYSERBOT"),
-        Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/ROYALUBOT_SUPPORT")
+        Button.url("✨ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ✨", "https://t.me/ROYALYSERBOT"),
+        Button.url("✨ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ✨", "https://t.me/ROYALUBOT_SUPPORT")
         ],
         [
-        Button.url("🔥 ʀᴇᴘᴏ 🔥", "https://github.com/...?")
+        Button.url("🔥𝗥𝗘𝗣𝗢🔥", "https://github.com/...?")
         ]
         ]
         
