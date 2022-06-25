@@ -3,7 +3,7 @@ import sys
 from sys import argv
 import glob
 from pathlib import Path
-from RDNSPAMBOT.utils import load_plugins
+from RDMSPAMBOT.utils import load_plugins
 import logging
 from telethon import events
 from . import Rdn, Rdn2, Rdn3, Rdn4, Rdn5, Rdn6, Rdn7, Rdn8, Rdn9, Rdn10
@@ -12,7 +12,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-path = "RDNSPAMBOT/plugins/*.py"
+path = "RDMSPAMBOT/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
@@ -20,8 +20,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("RDN Spam BOTS Successfully Deployed !!")
-print("Enjoy! Do Visit @RWMNETWORK")
+print("RDNSPAMBOTS Successfully Deployed !!")
+print("Enjoy..!  Support @RMWNETWORK ")
 
 if __name__ == "__main__":
     Rdn.run_until_disconnected()
