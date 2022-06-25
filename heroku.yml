@@ -2,4 +2,4 @@ build:
   docker:
     Rdn: Dockerfile
 run:
-  Rdn: python3 -m RDNSPAMBOT
+  Rdn: python3 -m RDMSPAMBOT
