@@ -12,7 +12,7 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/2ead82e77994638db6e39.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/27dfd474582fb499263d8.jpg"
 
 MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 
 ██████╗░██████╗░███╗░░██╗
