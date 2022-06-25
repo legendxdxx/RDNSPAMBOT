@@ -3,10 +3,10 @@ import asyncio
 import sys
 import git
 import heroku3
-from MightyXSpam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, mightyversion, mention
-from MightyXSpam import CMD_HNDLR as hl
+from RDMSPAMBOT import Rdn, Rdn2, Rdn3,Rdn4, Rdn5 , Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, mightyversion, mention
+from RDMSPAMBOT import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
-from MightyXSpam import ALIVE_NAME, ALIVE_PIC, ALIVE_TEXT
+from RDMSPAMBOT import ALIVE_NAME, ALIVE_PIC, ALIVE_TEXT
 from telethon import events, version, Button
 from telethon.tl.custom import button
 from time import time
@@ -14,19 +14,25 @@ from datetime import datetime
 
 MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/2ead82e77994638db6e39.jpg"
 
-MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆𝗫𝗦𝗽𝗮𝗺 𝗶𝘀 𝗛𝗲𝗿𝗲 ★«╝"
+MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 
+██████╗░██████╗░███╗░░██╗
+██╔══██╗██╔══██╗████╗░██║
+██████╔╝██║░░██║██╔██╗██║
+██╔══██╗██║░░██║██║╚████║
+██║░░██║██████╔╝██║░╚███║
+╚═╝░░╚═╝╚═════╝░╚═╝░░╚══╝ ★«╝"
 
                                   
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig3.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig4.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig5.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig6.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig7.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig8.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig9.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@Mig10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn3.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn4.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn5.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn6.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn7.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn8.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn9.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
+@Rdn10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event):
   if event.sender_id in SUDO_USERS:
       start = datetime.now()
