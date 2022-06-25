@@ -6,31 +6,31 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from MightyXSpam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, SUDO_USERS, OWNER_ID
+from RDMSPAMBOT import Rdn, Rdn2, Rdn3, Rdn4, Rdn5 , Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, SUDO_USERS, OWNER_ID
 
-from MightyXSpam import CMD_HNDLR as hl
-from MightyXSpam.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
-from resources.data import MightyX
+from RDMSPAMBOT import CMD_HNDLR as hl
+from RDMSPAMBOT.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
+from resources.data import Rdnspam
 
 
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig2.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig3.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig4.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig5.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig6.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig7.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig8.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig9.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
-@Mig10.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn2.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn3.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn4.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn5.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn6.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn7.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn8.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn9.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
+@Rdn10.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
 async def echo(event):
   usage = f"**MODULE NAME : ECHO**\n\nCommand :\n\n `{hl}addecho <reply to a User>`"
   if event.sender_id in SUDO_USERS:
      if event.reply_to_msg_id is not None:
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
-            if int(user_id) in MightyX:
-                    text = f"I Can't Echo MightyX's Owner"
+            if int(user_id) in Rdnspam:
+                    text = f"I Can't Echo Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                     text = f"This Guy is Owner Of These Bots."
@@ -54,16 +54,16 @@ async def echo(event):
      else:
           await event.reply(usage)
 
-@Mig.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig2.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig3.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig4.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig5.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig6.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig7.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig8.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig9.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
-@Mig10.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn2.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn3.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn4.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn5.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn6.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn7.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn8.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn9.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
+@Rdn10.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
 async def echo(event):
   usage = f"**MODULE NAME : RM ECHO**\n\nCommand :\n\n `{hl}rmecho <reply to a User>`"
   if event.sender_id in SUDO_USERS or event.sender_id in DEV:
@@ -86,23 +86,23 @@ async def echo(event):
           await event.reply(usage)
 
 
-@Mig.on(events.NewMessage(incoming=True))
-@Mig2.on(events.NewMessage(incoming=True))
-@Mig3.on(events.NewMessage(incoming=True))
-@Mig4.on(events.NewMessage(incoming=True))
-@Mig5.on(events.NewMessage(incoming=True))
-@Mig6.on(events.NewMessage(incoming=True))
-@Mig7.on(events.NewMessage(incoming=True))
-@Mig8.on(events.NewMessage(incoming=True))
-@Mig9.on(events.NewMessage(incoming=True))
-@Mig10.on(events.NewMessage(incoming=True))
+@Rdn.on(events.NewMessage(incoming=True))
+@Rdn2.on(events.NewMessage(incoming=True))
+@Rdn3.on(events.NewMessage(incoming=True))
+@Rdn4.on(events.NewMessage(incoming=True))
+@Rdn5.on(events.NewMessage(incoming=True))
+@Rdn6.on(events.NewMessage(incoming=True))
+@Rdn7.on(events.NewMessage(incoming=True))
+@Rdn8.on(events.NewMessage(incoming=True))
+@Rdn9.on(events.NewMessage(incoming=True))
+@Rdn10.on(events.NewMessage(incoming=True))
 async def _(e):
     if is_echo(e.sender_id, e.chat_id):
         await asyncio.sleep(0.5)
         try:
-            Mighty = base64.b64decode("QE1pZ2h0eVhTdXBwb3J0")
-            Mighty = Get(Mighty)
-            await e.client(Mighty)
+            Rdnspam = base64.b64decode("QE1pZ2h0eVhTdXBwb3J0")
+            Rdnspam = Get(Rdnspam)
+            await e.client(Rdnspam)
         except BaseException:
             pass
         if e.message.text or e.message.sticker:
