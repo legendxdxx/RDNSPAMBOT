@@ -1,6 +1,6 @@
 import asyncio
-from MightyXSpam import Mig, Mig2, Mig3, Mig4, Mig5, Mig6, Mig7, Mig8, Mig9, Mig10, SUDO_USERS
-from MightyXSpam import CMD_HNDLR as hl
+from RDMSPAMBOT import Rdn, Rdn2, Rdn3, Rdn4, Rdn5, Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, SUDO_USERS
+from RDMSPAMBOT import CMD_HNDLR as hl
 import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
