@@ -1,0 +1,130 @@
+{
+    "name": "RDN X FIGHTERS SPAM",
+    "description": "POWERFUL SPAMBOTS BY RDN FIGHTERS",
+    "logo": "https://te.legra.ph/file/0cb63f5f5b0cbb6a559f0.jpg",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "RDNSPAMBOT",
+        "SpamBots"
+    ],
+    "repository": "https://github.com/LEGENDXDXX/RDNSPAMBOT",
+    "website": "https://github.com/LEGENDXDXX",
+    "success_url": "https://t.me/RMWNETWORK",
+    "env": {
+             "API_ID": {
+        "description": "Fill Api ID Take This Value From my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_NAME": {
+        "description": "Fill Your Name (Owner Name)",
+        "value": "",
+        "required": false
+      },
+      "ALIVE_PIC": {
+        "description": "Put Alive Pic's Telegraph Link. (Optional) | Get This Value From @vTelegraphBot",
+        "value": "",
+        "required": false
+      },
+      "ALIVE_TEXT": {
+        "description": "Header Text To Show On Executing Alive Command. (Optional)",
+        "value": "",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api Hash Take This Value From my.telegram.org",
+        "value": "",
+        "required": true
+      },
+     "CMD_HNDLR": {
+            "description": "Custom Command Handler.",
+            "value": "!",
+            "required": false
+        },
+      "BOT_TOKEN": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN2": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN3": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN4": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN5": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN6": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN7": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN8": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN9": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN10": {
+        "description": "Telegram Bot Token Get This Value From @BotFather",
+        "value": "",
+        "required": true
+      },
+       "SUDO_USER": {
+            "description": "Sudo Users id - Saparated By Space",
+            "value": "",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "Owner ID",
+            "value": "",
+            "required": true
+        },
+        "HEROKU_API_KEY": {
+            "description": "Your Heroku API Key To Update Your Bot",
+            "value": "",
+            "required": false 
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Your App Name To Update Your Bot",
+          "value": "",
+          "required": false  
+        }
+    },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
