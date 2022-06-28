@@ -4,7 +4,7 @@ from Rdmspam import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/91d82bf74b7a75468f5ef.jpg"
 
-RdnHelp = "★ 𝙎𝙚𝙢𝙭𝙓𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩\n\n\n@Kartik_king01"
+RdnHelp = "★ 𝗥𝗗𝗡 𝗦𝗣𝗔𝗠 𝗛𝗘𝗟𝗣 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩\n\n\n@Kartik_king01"
 
 
 @Rdn.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
