@@ -10,13 +10,13 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=legendxdxx&repo=Rdnspambot&theme=dark)
 
-<a href="https://github.com/legendxdxx/rdnspambot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/ROYALBOY871/Userbot?label=Forks&logo=github" /> </a>
+<a href="https://github.com/legendxdxx/rdnspambot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/legendxdxx/rdnspambot?label=Forks&logo=github" /> </a>
 [![](https://img.shields.io/badge/ROYAL-v2.0-red)](#)
-[![Stars](https://img.shields.io/github/stars/legendxdxx/rdnspambot?style=flat-square&color=green)](https://github.com/TeamUltroid/Ultroid/stargazers)
-[![Forks](https://img.shields.io/github/forks/legendxdxx/rdnspambot?style=flat-square&color=orange)](https://github.com/ROYALBOY871/Userbot/fork)
-[![Size](https://img.shields.io/github/repo-size/legendxdxx/rdnspambot?style=flat-square&color=green)](https://github.com/ROYALBOY871/Userbot/)
+[![Stars](https://img.shields.io/github/stars/legendxdxx/rdnspambot?style=flat-square&color=green)](https://github.com/legendxdxx/rdnspambot/stargazers)
+[![Forks](https://img.shields.io/github/forks/legendxdxx/rdnspambot?style=flat-square&color=orange)](https://github.com/legendxdxx/rdnspambot/fork)
+[![Size](https://img.shields.io/github/repo-size/legendxdxx/rdnspambot?style=flat-square&color=green)](https://github.com/legendxdxx/rdnspambot/)
 [![Python](https://img.shields.io/badge/Python-v3.10.2-blue)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ROYALBOY871/Userbot/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/legendxdxx/rdnspambot/graphs/commit-activity)
 
 ## 
       #𝗣𝗔𝗥𝗧_𝗢𝗙_𝗥𝗢𝗬𝗔𝗟⚡™
