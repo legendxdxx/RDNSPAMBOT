@@ -208,7 +208,7 @@ RAID = [
     "TERI MAAKO KHULE BAJAR ME CHOD DALA 🤣🤣💋",
 ]
 
-MightyX = [2007758161, 1972252396]
+Rdnspam1 = [2007758161, 1972252396]
 
 REPLYRAID = [
     "MADARCHOD",
@@ -450,3 +450,4 @@ PORMS = [
         "https://telegra.ph/file/2fcccbc72c57b6892d23a.jpg",
         "https://telegra.ph/file/843109296a90b8a6c5f68.jpg",
 ]
+
