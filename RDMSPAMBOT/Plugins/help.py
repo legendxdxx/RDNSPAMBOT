@@ -2,7 +2,7 @@ from Rdmspam import Rdn, Rdn2, Rdn3, Rdn4, Rdn5, Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, 
 from telethon import events, Button
 from Rdmspam import CMD_HNDLR as hl
     
-HELP_PIC = "https://te.legra.ph/file/91d82bf74b7a75468f5ef.jpg"
+HELP_PIC = "https://te.legra.ph/file/81c502daf64192d9d54eb.jpg"
 
 RdnHelp = "★ 𝗥𝗗𝗡 𝗦𝗣𝗔𝗠 𝗛𝗘𝗟𝗣 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩\n\n\n@Kartik_king01"
 
