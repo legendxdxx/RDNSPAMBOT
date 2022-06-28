@@ -35,7 +35,7 @@ async def spam(e):
             user = str(Rdnspam[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in Rdnspam:
+            if int(g) in Rdnspam1:
                 text = f"Sorry, I Can't Raid On Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
@@ -58,7 +58,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in Rdnspam:
+            if int(g) in Rdnspam1:
                 text = f"Sorry, I Can't Raid On Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
@@ -128,7 +128,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_idd = a.id
             user_id = int(user_idd)
-            if int(user_id) in Rdnspam:
+            if int(user_id) in Rdnspam1:
                 text = f"Sorry, I Can't Raid On Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
@@ -149,7 +149,7 @@ async def _(e):
             umser = await e.client.get_entity(a.sender_id)
             user_idd = umser.id
             user_id = int(user_idd)
-            if int(user_id) in RDNSPAM:
+            if int(user_id) in RDNSPAM1:
                 text = f"Sorry, I Can't Raid  On Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
@@ -232,7 +232,7 @@ async def _(event):
              user = str(Rdnspam[2])
              a = await event.client.get_entity(user)
              e = a.id
-             if int(e) in Rdnspam:
+             if int(e) in Rdnspam1:
                     text = f"Sorry, I Can't Raid On Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) == OWNER_ID:
@@ -256,7 +256,7 @@ async def _(event):
                a = await event.get_reply_message()
                b = await event.client.get_entity(a.sender_id)
                e = b.id
-               if int(e) in Rdnspam:
+               if int(e) in Rdnspam1:
                        text = f"Sorry, I Can't Raid On Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) == OWNER_ID:
