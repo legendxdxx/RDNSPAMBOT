@@ -1,6 +1,6 @@
-from Rdmspam import Rdn, Rdn2, Rdn3, Rdn4, Rdn5, Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, SUDO_USERS
+from Rdmspambot import Rdn, Rdn2, Rdn3, Rdn4, Rdn5, Rdn6, Rdn7, Rdn8, Rdn9, Rdn10, SUDO_USERS
 from telethon import events, Button
-from Rdmspam import CMD_HNDLR as hl
+from Rdmspambot import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/81c502daf64192d9d54eb.jpg"
 
