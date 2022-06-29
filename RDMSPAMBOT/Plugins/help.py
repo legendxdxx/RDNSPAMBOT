@@ -202,16 +202,16 @@ async def help_raid(event):
        
 
 
-@MK1.on(events.CallbackQuery(pattern=r"extra"))
-@MK2.on(events.CallbackQuery(pattern=r"extra"))
-@MK3.on(events.CallbackQuery(pattern=r"extra"))
-@MK4.on(events.CallbackQuery(pattern=r"extra"))
-@MK5.on(events.CallbackQuery(pattern=r"extra"))
-@MK6.on(events.CallbackQuery(pattern=r"extra"))
-@MK7.on(events.CallbackQuery(pattern=r"extra"))
-@MK8.on(events.CallbackQuery(pattern=r"extra"))
-@MK9.on(events.CallbackQuery(pattern=r"extra"))
-@MK10.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn2.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn3.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn4.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn5.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn6.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn7.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn8.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn9.on(events.CallbackQuery(pattern=r"extra"))
+@Rdn10.on(events.CallbackQuery(pattern=r"extra"))
 async def help_extra(event):
    if event.query.user_id in SUDO_USERS:
         await event.edit(
