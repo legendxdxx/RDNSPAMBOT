@@ -345,13 +345,13 @@ async def spam(e):
         Rdnspam = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         await e.get_reply_message()
         if len(rdnspam) == 2:
-            message = str(rdnspam[1])
+            message = str(Rdnspam[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(rdnspam[0])
+            counter = int(Rdnspam[0])
             for _ in range(counter):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
@@ -363,7 +363,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(rdnspam[0])
+            counter = int(Rdnspam[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(SRAID)
